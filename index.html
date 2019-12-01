@@ -1,0 +1,204 @@
+<style type="text/css">
+	body {
+		display: flex;
+		min-width: 290px;
+  		color: #4d4e53;
+  		background-color: #ffffff;
+  		font-family: "Open Sans", Arial, sans-serif;
+  		line-height: 1.5;
+	}
+
+	#navbar {
+  		position: fixed;
+  		min-width: 290px;
+  		top: 0px;
+  		left: 0px;
+  		width: 300px;
+  		height: 100%;
+  		border-right: solid;
+  		border-color: rgba(0, 22, 22, 0.4);
+  	}
+
+	#navbar ul {
+  		height: 88%;
+  		padding: 0;
+  		overflow-y: auto;
+  		overflow-x: hidden;
+	}
+
+	#navbar li {
+  		color: #4d4e53;
+  		border-top: 1px solid;
+  		list-style: none;
+  		position: relative;
+  		width: 100%;
+	}
+
+	#navbar a {
+  		display: block;
+  		padding: 10px 30px;
+  		color: #4d4e53;
+  		text-decoration: none;
+  		cursor: pointer;
+	}
+
+	nav header {
+  		color: black;
+  		margin: 10px;
+  		text-align: center;
+  		font-size: 1.8em;
+  		font-weight: thin;
+	}
+
+	#main-doc {
+		position: absolute;
+  		margin-left: 310px;
+  		padding: 20px;
+  		margin-bottom: 110px;
+	}
+
+	.main-section {
+
+	}
+
+	section header {
+		text-align: left;
+  		margin: 0px;
+	}
+
+	section article {
+  		color: #4d4e53;
+  		margin: 15px;
+  		font-size: 0.96em;
+	}
+
+	section li {
+  		margin: 15px 0px 0px 20px;
+	}
+
+	code {
+  		display: block;
+  		text-align: left;
+  		white-space: pre;
+  		position: relative;
+  		word-break: normal;
+  		word-wrap: normal;
+  		line-height: 2;
+  		background-color: #f7f7f7;
+  		padding: 15px;
+  		margin: 10px;
+  		border-radius: 5px;
+	}
+
+	@media only screen and (max-width: 815px) {
+  		#navbar ul {
+    		border: 1px solid;
+    		height: 207px;
+  	}
+
+  		#navbar {
+    		background-color: white;
+    		position: absolute;
+    		top: 0;
+    		padding: 0;
+    		margin: 0;
+    		width: 100%;
+    		max-height: 275px;
+    		border: none;
+    		z-index: 1;
+    		border-bottom: 2px solid;
+  	}
+
+  		#main-doc {
+    	position: relative;
+    	margin-left: 0px;
+    	margin-top: 270px;
+  	}
+	}
+
+
+  	@media only screen and (max-width: 400px) {
+  		#main-doc {
+    		margin-left: -10px;
+  		}
+  		  code {
+    		margin-left: -20px;
+    		width: 100%;
+    		padding: 15px;
+    		padding-left: 10px;
+    		padding-right: 45px;
+    		min-width: 233px;
+  		}
+  	}
+</style>
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Technical Documentation Page</title>
+</head>
+<body>
+<main id="main-doc">
+		<section class="main-section" id="section_1">
+			<header>Section 1</header>
+			<article>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Aenean pharetra magna ac placerat vestibulum lectus mauris ultrices. Rhoncus mattis rhoncus urna neque viverra justo nec ultrices dui. Pellentesque diam volutpat commodo sed egestas egestas fringilla phasellus faucibus. Pharetra diam sit amet nisl suscipit adipiscing bibendum est ultricies. Interdum consectetur libero id faucibus. Id volutpat lacus laoreet non curabitur gravida arcu ac. A arcu cursus vitae congue. Facilisis magna etiam tempor orci eu lobortis elementum. Mauris pharetra et ultrices neque ornare aenean euismod elementum nisi.</p>
+			<code> <a href="link this way">link this way</a> </code>
+			<p>Non arcu risus quis varius quam quisque id diam. Sit amet dictum sit amet justo donec. Auctor urna nunc id cursus. Ac turpis egestas integer eget aliquet nibh. Id ornare arcu odio ut sem. Pharetra diam sit amet nisl. Sed cras ornare arcu dui vivamus arcu. Vitae congue mauris rhoncus aenean. Dolor sit amet consectetur adipiscing elit duis tristique sollicitudin. In ante metus dictum at tempor commodo. Pharetra massa massa ultricies mi quis hendrerit dolor magna. Fames ac turpis egestas integer. Egestas quis ipsum suspendisse ultrices gravida dictum fusce ut placerat. Praesent semper feugiat nibh sed. Elementum eu facilisis sed odio morbi quis. Rhoncus urna neque viverra justo nec ultrices dui.</p>
+			</article>
+			<code><em>italicize this way</em></code>
+		</section>
+
+		<section class="main-section" id="section_2">
+			<header>Section 2</header>
+			<article>
+			<p>Non arcu risus quis varius quam quisque id diam. Sit amet dictum sit amet justo donec. Auctor urna nunc id cursus. Ac turpis egestas integer eget aliquet nibh. Id ornare arcu odio ut sem. Pharetra diam sit amet nisl. Sed cras ornare arcu dui vivamus arcu. Vitae congue mauris rhoncus aenean. Dolor sit amet consectetur adipiscing elit duis tristique sollicitudin. In ante metus dictum at tempor commodo. Pharetra massa massa ultricies mi quis hendrerit dolor magna. Fames ac turpis egestas integer. Egestas quis ipsum suspendisse ultrices gravida dictum fusce ut placerat. Praesent semper feugiat nibh sed. Elementum eu facilisis sed odio morbi quis. Rhoncus urna neque viverra justo nec ultrices dui.</p>
+			<code><strong>bold this way</strong></code>
+			<p>Purus sit amet luctus venenatis lectus. Habitant morbi tristique senectus et netus. Sit amet nisl suscipit adipiscing bibendum est ultricies integer. Lacus vestibulum sed arcu non odio euismod lacinia. Aliquam id diam maecenas ultricies mi eget mauris pharetra et. Egestas sed tempus urna et. Lobortis elementum nibh tellus molestie nunc non blandit massa enim. Amet consectetur adipiscing elit pellentesque habitant. Ornare aenean euismod elementum nisi quis. 
+			</article>
+			<code><header>head this way</header></code>
+				<ul>Vitae turpis massa sed elementum tempus egestas sed sed risus.
+					<li>Lectus quam id leo in vitae turpis. Leo in vitae turpis massa sed elementum. Augue interdum velit euismod in pellentesque. 
+					<li>Enim lobortis scelerisque fermentum dui faucibus in. Tincidunt ornare massa eget egestas purus viverra. Blandit cursus risus at ultrices mi tempus. 
+					<li>A iaculis at erat pellentesque adipiscing commodo elit at imperdiet. 
+					<li>Donec ac odio tempor orci dapibus ultrices in iaculis. Et ligula ullamcorper malesuada proin libero nunc consequat interdum varius. 
+					<li>Nunc scelerisque viverra mauris in.</ul></p>
+		</section>
+
+		<section class="main-section" id="section_3">
+			<header>Section 3</header>
+			<article>
+			<p>Purus sit amet luctus venenatis lectus. Habitant morbi tristique senectus et netus. Sit amet nisl suscipit adipiscing bibendum est ultricies integer. Lacus vestibulum sed arcu non odio euismod lacinia. Aliquam id diam maecenas ultricies mi eget mauris pharetra et. Egestas sed tempus urna et. Lobortis elementum nibh tellus molestie nunc non blandit massa enim. Amet consectetur adipiscing elit pellentesque habitant. Ornare aenean euismod elementum nisi quis. Vitae turpis massa sed elementum tempus egestas sed sed risus. Lectus quam id leo in vitae turpis. Leo in vitae turpis massa sed elementum. Augue interdum velit euismod in pellentesque. Enim lobortis scelerisque fermentum dui faucibus in. Tincidunt ornare massa eget egestas purus viverra. Blandit cursus risus at ultrices mi tempus. A iaculis at erat pellentesque adipiscing commodo elit at imperdiet. Donec ac odio tempor orci dapibus ultrices in iaculis. Et ligula ullamcorper malesuada proin libero nunc consequat interdum varius. Nunc scelerisque viverra mauris in.</p>
+			<code>differentiate between li and ul for list types</code>
+			<p>Sem integer vitae justo eget magna. Diam maecenas ultricies mi eget mauris pharetra et. Ultrices dui sapien eget mi proin. Id diam vel quam elementum pulvinar etiam non quam. Interdum varius sit amet mattis vulputate enim. Dis parturient montes nascetur ridiculus mus. Gravida rutrum quisque non tellus orci ac auctor augue. Sed adipiscing diam donec adipiscing. Odio tempor orci dapibus ultrices in iaculis nunc sed augue. Placerat vestibulum lectus mauris ultrices.</p>
+			</article>
+		</section>
+
+		<section class="main-section" id="section_4">
+			<header>Section 4</header>
+			<article>
+			<p>Sem integer vitae justo eget magna. Diam maecenas ultricies mi eget mauris pharetra et. Ultrices dui sapien eget mi proin. Id diam vel quam elementum pulvinar etiam non quam. Interdum varius sit amet mattis vulputate enim. Dis parturient montes nascetur ridiculus mus. Gravida rutrum quisque non tellus orci ac auctor augue. Sed adipiscing diam donec adipiscing. Odio tempor orci dapibus ultrices in iaculis nunc sed augue. Placerat vestibulum lectus mauris ultrices.</p>
+			<p>Amet consectetur adipiscing elit ut aliquam purus sit amet luctus. Purus faucibus ornare suspendisse sed nisi lacus sed. Nunc consequat interdum varius sit. Orci porta non pulvinar neque laoreet suspendisse interdum consectetur. Quis blandit turpis cursus in hac habitasse platea dictumst. Pretium vulputate sapien nec sagittis. Sed risus pretium quam vulputate dignissim. Orci nulla pellentesque dignissim enim sit amet venenatis urna. In aliquam sem fringilla ut morbi. Amet consectetur adipiscing elit duis tristique sollicitudin nibh. Massa placerat duis ultricies lacus sed turpis tincidunt. Id porta nibh venenatis cras. Tristique senectus et netus et malesuada. Nibh tortor id aliquet lectus. Risus pretium quam vulputate dignissim suspendisse in est ante. </p>
+			</article>
+		</section>
+
+		<section class="main-section" id="section_5">
+			<header>Section 5</header>
+			<article>
+			<p>Amet consectetur adipiscing elit ut aliquam purus sit amet luctus. Purus faucibus ornare suspendisse sed nisi lacus sed. Nunc consequat interdum varius sit. Orci porta non pulvinar neque laoreet suspendisse interdum consectetur. Quis blandit turpis cursus in hac habitasse platea dictumst. Pretium vulputate sapien nec sagittis. Sed risus pretium quam vulputate dignissim. Orci nulla pellentesque dignissim enim sit amet venenatis urna. In aliquam sem fringilla ut morbi. Amet consectetur adipiscing elit duis tristique sollicitudin nibh. Massa placerat duis ultricies lacus sed turpis tincidunt. Id porta nibh venenatis cras. Tristique senectus et netus et malesuada. Nibh tortor id aliquet lectus. Risus pretium quam vulputate dignissim suspendisse in est ante. </p>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Aenean pharetra magna ac placerat vestibulum lectus mauris ultrices. Rhoncus mattis rhoncus urna neque viverra justo nec ultrices dui. Pellentesque diam volutpat commodo sed egestas egestas fringilla phasellus faucibus. Pharetra diam sit amet nisl suscipit adipiscing bibendum est ultricies. Interdum consectetur libero id faucibus. Id volutpat lacus laoreet non curabitur gravida arcu ac. A arcu cursus vitae congue. Facilisis magna etiam tempor orci eu lobortis elementum. Mauris pharetra et ultrices neque ornare aenean euismod elementum nisi.</p>
+			</article>
+		</section>
+	</main>
+	<nav id="navbar">
+		<header>Header</header>
+		<ul>
+			<li ><a href="#section_1" class="nav-link">Section 1</a></li>
+			<li ><a href="#section_2" class="nav-link">Section 2</a></li>
+			<li ><a href="#section_3" class="nav-link">Section 3</a></li>
+			<li ><a href="#section_4" class="nav-link">Section 4</a></li>
+			<li ><a href="#section_5" class="nav-link">Section 5</a></li>
+		</ul>
+	</nav>
+</body>
+</html>
